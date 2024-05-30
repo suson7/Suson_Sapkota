@@ -9,7 +9,8 @@ import 'boxicons/css/boxicons.min.css';
 const sections = {
   home: '#home',
   profile: '#profile',
-  documents: '#documents'
+  documents: '#documents',
+  skills: '#skills'
 };
 
 function App() {
@@ -125,49 +126,140 @@ function App() {
           </div>
         </div>
       </div>
+
       <div id='profile' className='section' data-aos='fade-up'>
-  <div className="profile-container">
-    <div className="pro-background"></div>
-    <div className="profile-content">
-      <div className="about-header-container">
-        <h1 className="about-header">ABOUT</h1>
+        <div className="profile-container">
+          <div className="pro-background"></div>
+          <div className="profile-content">
+            <div className="about-header-container">
+              <h1 className="about-header">ABOUT</h1>
+            </div>
+            <div className="info-row">
+              <div className="info-content">
+                <p>
+                <h2 className="custom-margin-top">Software Developer & QA Tester.</h2>
+
+                  <span className="info-item"><b>Degree:</b> Bachelor's in Computer Science<br /></span>
+                  <span className="info-item"><b>Email:</b> sapkotasuson@gmail.com<br /></span>
+                  <span className="info-item"><b>City:</b> Herndon, VA, US<br /></span>
+                  <span className="info-item"><b>Co-Founder/Developer:</b> <a href="https://uvatour-df017cb90170.herokuapp.com/users/accounts/login/">UVA Tour</a></span>
+                </p>
+              </div>
+              <div className="profile-links">
+                <p>
+                  <span className="info-item"><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/suson-sapkota-021227239/">susonsapkota</a><br /></span>
+                  <span className="info-item"><b>GitHub:</b> <a href="https://github.com/suson7">suson</a><br /></span>
+                  <span className="info-item"><b>Resume:</b> <a href="https://drive.google.com/file/d/1BsVA5S-WKtqEZF-Sd8Gb-F1hDeq7Oyl-/view">Download here!</a><br /></span>
+                </p>
+              </div>
+            </div>
+            <p>
+              I am a fourth year student at the University of Virginia studying computer science. I have had a passion for computers and technology since 8th grade when I took my first ever coding class. I am very passionate about modern-day technologies especially Artificial Intelligence which is causing big transformation in the contemporary tech industry. I am excited to see what the future holds for tech and be part of this beautiful journey in the coming years.
+            </p>
+
+            {/* Skills Section */}
+            <section id="skills" className="skills section-bg">
+  <div className="container" data-aos="fade-up">
+    <div className="section-title">
+      <h2>SKILLS</h2>
+    </div>
+    <div className="row skills-content">
+      <div className="col-lg-6 left-column">
+        <div className="progress">
+          <span className="skill">Python <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Java <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">C <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Agile <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Web Development <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Object Oriented <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{ width: '95%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Jenkins <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style={{ width: '55%' }}></div>
+          </div>
+        </div>
       </div>
-      <h2>Software Developer & QA Tester.</h2>
-      <div className="info-row">
-        <div className="info-content">
-          <p>
-            <span className="info-item"><b>Degree:</b> Bachelor's in Computer Science<br /></span>
-            <span className="info-item"><b>Email:</b> sapkotasuson@gmail.com<br /></span>
-            <span className="info-item"><b>City:</b> Herndon, VA, US<br /></span>
-            <span className="info-item"><b>Co-Founder/Developer:</b> <a href="https://uvatour-df017cb90170.herokuapp.com/users/accounts/login/">UVA Tour</a></span>
-           
-          </p>
+      <div className="col-lg-6 right-column">
+        <div className="progress">
+          <span className="skill">C++ <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{ width: '95%' }}></div>
+          </div>
         </div>
-        <div className="profile-links">
-          <p>
-            <span className="info-item"><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/suson-sapkota-021227239/">susonsapkota</a><br /></span>
-            <span className="info-item"><b>GitHub:</b> <a href="https://github.com/suson7">suson</a><br /></span>
-            <span className="info-item"><b>Resume:</b> <a href="https://drive.google.com/file/d/1BsVA5S-WKtqEZF-Sd8Gb-F1hDeq7Oyl-/view">Download here!</a><br /></span>
-          </p>
+        <div className="progress">
+          <span className="skill">Linux Env <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{ width: '95%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">MySQL <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Perforce <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Git and Github <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div>
+          </div>
+        </div>
+        <div className="progress">
+          <span className="skill">Continuous Integration <i className="val"></i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
+          </div>
         </div>
       </div>
-      <p>
-        I am a  fourth year student at the University of Virginia studying computer science. I have had a passion for computers and technology since 8th grade when I took my first ever coding class. I am very passionate about <br /> modern-day techonologies especially  Artificial Intelligence which is causing big transformation in the contemorary tech industry. I am excited to see what the future holds for tech and be part of this beautiful journey in the coming years.
-      </p>
-      <div className="skills-header-container">
-        <h2 className="skills-header">SKILLS</h2>
-        </div>
     </div>
   </div>
+</section>
 
-</div>
 
+
+          </div>
+        </div>
+      </div>
 
       <div id='documents' className='section' data-aos='fade-up'>
         <h1>Documents</h1>
       </div>
 
-      {/* Back to Top Button */}
       {showBackToTop && (
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="back-to-top">
           ↑
@@ -176,6 +268,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

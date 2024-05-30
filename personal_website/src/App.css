@@ -197,7 +197,6 @@ body {
   }
 }
 
-/* Profile Section */
 #profile {
   display: flex;
   flex-direction: column;
@@ -223,12 +222,18 @@ body {
 
 .about-header-container {
   width: 100%;
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
   margin-left: 100px;
 }
 
+.profile-links{
+  margin-top: 62px;
+}
 .about-header {
   color: #464242;
+}
+.custom-margin-top {
+  margin-top: 30px; /* Adjust the value as needed */
 }
 
 .pro-background {
@@ -239,7 +244,6 @@ body {
   height: 350px; /* Set a fixed height for the image */
   margin-top:120px;
   margin-right: 15px; /* Space between image and text */
-  border-radius: 360px;
 }
 
 .profile-row {
@@ -273,7 +277,7 @@ body {
   content: '➤'; /* Arrow symbol */
   position: absolute;
   left: 0; /* Position the arrow to the left of the text */
-  color: #007BFF; /* Arrow color */
+  color: #0d6dd3; /* Arrow color */
 }
 .about-header {
   font-size: 25px;
@@ -292,24 +296,18 @@ body {
   background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
   margin-top: 8px; /* Adjust the spacing as needed */
 }
-.skills-header-container {
-  margin-top: 50px;
-  margin-left: 100px;
-}
 
-.skills-header {
-  font-size: 25px;
+.section-title {
+  margin-top: 30px;
+  margin-left: 98px;
+  font-size: 18px;
   color: #454444;
   position: relative;
   display: inline-block;
-}
-.skills-header {
-  font-size: 25px;
-  color: #454444;
-  display: inline-block;
+  margin-bottom: 20px; /* Space between the header and the line */
 }
 
-.skills-header::after {
+.section-title::after {
   content: '';
   display: block;
   width: 100%; /* Full width of the container */
@@ -317,3 +315,72 @@ body {
   background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
   margin-top: 8px; /* Adjust the spacing as needed */
 }
+
+.skills .skills-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -500px; /* Adjust this value as needed */
+  
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+  width: 100%;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dcdcdc; /* Changed to a distinct color */
+  width: 250%; /* Increase the width to make the bar longer */
+  height: 10px;
+  border-radius: 5px; /* Add border radius for a smoother look */
+  overflow: hidden; /* Ensure the progress bar does not overflow */
+}
+
+.skills .progress-bar {
+  height: 10px;
+  width: 0%; /* Set initial width to 0% for animation */
+  transition: width .9s;
+  background-color: #0563bb;
+}
+
+.skills-content .col-lg-6 {
+  margin: 0 25px; /* Adjust margins to ensure proper spacing between columns */
+}
+
+.skills-content .right-column {
+  margin-right: 400px; /* Move the right column more to the left */
+  width: 19%; 
+
+
+}
+ .skills-content .left-column{
+  margin-left: 70px; /* Move the right column more to the left */
+  width: 17%; 
+  }
+  
+  .info-item a {
+    text-decoration: none;
+    color: #718ee4; /* Set the link color to light blue */
+  }
+  
+  .info-item a:hover {
+    text-decoration: underline; /* Optionally, add an underline on hover */
+  }
+  
