@@ -125,10 +125,43 @@ function App() {
           </div>
         </div>
       </div>
-
       <div id='profile' className='section' data-aos='fade-up'>
-        <h1>ABOUT</h1>
+  <div className="profile-container">
+    <div className="pro-background"></div>
+    <div className="profile-content">
+      <div className="about-header-container">
+        <h1 className="about-header">ABOUT</h1>
       </div>
+      <h2>Software Developer & QA Tester.</h2>
+      <div className="info-row">
+        <div className="info-content">
+          <p>
+            <span className="info-item"><b>Degree:</b> Bachelor's in Computer Science<br /></span>
+            <span className="info-item"><b>Email:</b> sapkotasuson@gmail.com<br /></span>
+            <span className="info-item"><b>City:</b> Herndon, VA, US<br /></span>
+            <span className="info-item"><b>Co-Founder/Developer:</b> <a href="https://uvatour-df017cb90170.herokuapp.com/users/accounts/login/">UVA Tour</a></span>
+           
+          </p>
+        </div>
+        <div className="profile-links">
+          <p>
+            <span className="info-item"><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/suson-sapkota-021227239/">susonsapkota</a><br /></span>
+            <span className="info-item"><b>GitHub:</b> <a href="https://github.com/suson7">suson</a><br /></span>
+            <span className="info-item"><b>Resume:</b> <a href="https://drive.google.com/file/d/1BsVA5S-WKtqEZF-Sd8Gb-F1hDeq7Oyl-/view">Download here!</a><br /></span>
+          </p>
+        </div>
+      </div>
+      <p>
+        I am a  fourth year student at the University of Virginia studying computer science. I have had a passion for computers and technology since 8th grade when I took my first ever coding class. I am very passionate about <br /> modern-day techonologies especially  Artificial Intelligence which is causing big transformation in the contemorary tech industry. I am excited to see what the future holds for tech and be part of this beautiful journey in the coming years.
+      </p>
+      <div className="skills-header-container">
+        <h2 className="skills-header">SKILLS</h2>
+        </div>
+    </div>
+  </div>
+
+</div>
+
 
       <div id='documents' className='section' data-aos='fade-up'>
         <h1>Documents</h1>
@@ -143,5 +176,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

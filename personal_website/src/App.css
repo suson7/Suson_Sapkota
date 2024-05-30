@@ -84,7 +84,7 @@ body {
 }
 
 .hero-background {
-  background-image: url('/Users/susonn7/personal_website/src/img/me.png');
+  background-image: url('/Users/susonn7/Downloads/Suson_Sapkota/personal_website/src/img/me.png');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -196,19 +196,124 @@ body {
     margin-left: 100px;
   }
 }
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
 
+/* Profile Section */
 #profile {
   display: flex;
-  text-align: center;
-  
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start;
+  padding: 30px 20px; /* Add padding to adjust space around the content */
 }
 
-#profile h1 {
-  margin: 0;
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.profile-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header-container {
+  width: 100%;
+  margin-bottom: 10px; /* Adjust as needed */
+  margin-left: 100px;
+}
+
+.about-header {
+  color: #464242;
+}
+
+.pro-background {
+  background-image: url('/Users/susonn7/Downloads/Suson_Sapkota/personal_website/src/img/pro.jpeg');
+  background-size: cover; /* Cover the container area */
+  background-position: center; /* Center the image */
+  width: 350px; /* Set a fixed width for the image */
+  height: 350px; /* Set a fixed height for the image */
+  margin-top:120px;
+  margin-right: 15px; /* Space between image and text */
+  border-radius: 360px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center; /* Align items in the center vertically */
+  gap: 20px; /* Space between the image and the text */
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info-content, .profile-links {
+  flex: 1; /* Allow both columns to take available space */
+}
+
+.info-item {
+  display: block;
+  margin-bottom: 16px; /* Add margin below each item for spacing */
+}
+
+.info-item b {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px; /* Adjust padding for space for arrow */
+}
+
+.info-item b::before {
+  content: '➤'; /* Arrow symbol */
+  position: absolute;
+  left: 0; /* Position the arrow to the left of the text */
+  color: #007BFF; /* Arrow color */
+}
+.about-header {
+  font-size: 25px;
+  color: #454444;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; /* Space between the header and the line */
+  text-align: center; /* Center the header text */
+}
+
+.about-header::after {
+  content: '';
+  display: block;
+  width: 100%; /* Full width of the container */
+  height: 3px; /* Height of the lines */
+  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
+  margin-top: 8px; /* Adjust the spacing as needed */
+}
+.skills-header-container {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.skills-header {
+  font-size: 25px;
+  color: #454444;
+  position: relative;
+  display: inline-block;
+}
+.skills-header {
+  font-size: 25px;
+  color: #454444;
+  display: inline-block;
+}
+
+.skills-header::after {
+  content: '';
+  display: block;
+  width: 100%; /* Full width of the container */
+  height: 3px; /* Height of the lines */
+  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
+  margin-top: 8px; /* Adjust the spacing as needed */
 }
