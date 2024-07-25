@@ -74,7 +74,6 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // AOS Animation Initialization
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -84,7 +83,6 @@ function App() {
 
   return (
     <div>
-      {/* Navigation Menu */}
       <div className="menu-container">
         <div
           className={`menu-item ${activeSection === 'home' ? 'active' : ''}`}
@@ -156,8 +154,6 @@ function App() {
             <p>
               I am a fourth year student at the University of Virginia studying computer science. I have had a passion for computers and technology since 8th grade when I took my first ever coding class. I am very passionate about modern-day technologies especially Artificial Intelligence which is causing big transformation in the contemporary tech industry. I am excited to see what the future holds for tech and be part of this beautiful journey in the coming years.
             </p>
-
-            {/* Skills Section */}
             <section id="skills" className="skills section-bg">
   <div className="container" data-aos="fade-up">
     <div className="section-title">
@@ -245,27 +241,111 @@ function App() {
             <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
 </section>
-
-
-
           </div>
         </div>
       </div>
 
-      <div id='documents' className='section' data-aos='fade-up'>
-        <h1>Documents</h1>
-      </div>
-
-      {showBackToTop && (
-        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="back-to-top">
-          ↑
-        </button>
-      )}
+      <section id="documents" className="resume">
+  <div className="container" data-aos="fade-up">
+    <div className="section-title">
+      <h2>RESUME</h2>
     </div>
+   
+    <div class="row">
+      <div class="col-lg-6 summary-column">
+        <h3 class="resume-title">Summary</h3>
+        <div class="resume-item pb-0 no-line">
+          <h4>Suson Sapkota</h4>
+          <p><em>Passionate and dedicated Software developer with 4+ years of coding and software development experience.</em></p>
+          <ul>
+            <li>Herndon, VA, US</li>
+            <li>sapkotasuson@gmail.com</li>
+          </ul>
+        </div>
+
+        <h3 class="resume-title">Professional Experience</h3>
+        <div class="resume-item">
+          <h4>SDE/SWE Intern</h4>
+          <h5>6/3/24-7/26/25</h5>
+          <p><em>CareMetx LLC, Bethesda, VA</em></p>
+          <ul>
+            <li>Developed and implemented coding standards using Prettier, ESLint and other linting tools for the entire QA team.</li>
+            <li>Integrated ESLint and Prettier with CircleCI, automating linting and formatting checks on every commit by scripting the CI pipeline.
+</li>
+            <li>Created setup documentation and meetings to ensure team-wide adoption of new coding standards.
+</li>
+<li>Regularly reviewed and updated coding standards and CI configurations to meet evolving project requirements and industry best practices.
+</li>
+<li>Gained experience using Jira for task management and project tracking. Attended daily standups with 4 senior engineers and lots of other meetings within the engineering department.
+</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Information Technology Intern</h4>
+          <h5>January 2024 - May 2024</h5>
+          <p><em>Charlottesville, VA, US</em></p>
+          <ul>
+            <li>Acquired proficiency in deploying and configuring F5 Network GTM (Global Traffic Managers) to improve website reliability and availability.       </li>
+            <li>Enhanced the security infrastructure for over 20 clients by integrating Duo authentication with Cisco systems, resulting in a 30% increase in client security compliance within 4 months.
+</li>
+            <li>Played a pivotal role in configuring Cisco devices and implementing robust multi-factor authentication (MFA) policies to strengthen overall security measures.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+              <h4>Founder/ Developer</h4>
+              <h5>Jun 2020 - Present</h5>
+              <a href="https://uvatour-df017cb90170.herokuapp.com/users/accounts/login/"> <p><em> UVA TOUR</em></p> </a>
+              <ul>
+                <li>Co-founded a website for UVA students to tour campus virtually. Integrated Google Auth through the Gmail API for enhanced security and user authentication. Implemented Google Maps API for location services enabling seamless navigation through UVA's campus and showcasing popular tours around the University efficiently. Deployed on Heroku for consistent performance and easy access.
+</li>
+<li>Incorporated the MVC framework Django for structured development Used GitHub for streamlined version control and project management, executed short, focused sprints lasting 2-3 weeks, continuously enhancing the project for students
+</li>
+
+              </ul>
+            </div>
+      </div>
+      
+
+      
+
+   
+          <div class="col-lg-6">
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor's in Computer Science </h4>
+              <h5>Aug 2021 -May 2025</h5>
+              <h5>GPA: 3.5/4.0</h5>
+              <p><em>University of Virginia, VA, US</em></p>
+              <p>Program Coursework :</p> <p> Algorithms and Data Structure, Software Development, Discrete Maths,<br/> Computer Networks.</p>
+            </div>
+            <div class="resume-item">
+              <h4>High School </h4>
+              <h5>2017 - 2021</h5>
+              <p><em>Yorktown High School, VA, US </em></p>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+</section>
+
+
+
+  {showBackToTop && (
+    <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="back-to-top">
+      ↑
+    </button>
+  )}
+</div>
   );
 }
 

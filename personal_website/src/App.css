@@ -9,7 +9,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background: #fff; /* Ensure body background is white */
+  background: #fff; 
 }
 
 .menu-container {
@@ -39,7 +39,7 @@ body {
   width: 56px;
   cursor: pointer;
   overflow: hidden;
-  border: 2px solid #ddd; /* Add border to make the circle stand out */
+  border: 2px solid #ddd; 
 }
 
 .menu-item i {
@@ -65,14 +65,14 @@ body {
 .menu-item.active {
   background-color: #0563bb;
   color: white;
-  border: 2px solid #0563bb; /* Match the border color with background */
+  border: 2px solid #0563bb; 
 }
 
 .menu-item:hover {
-  width: 80px; /* Expand to desired width on hover */
+  width: 80px; 
   background: #0563bb;
   color: #fff;
-  border: 1px solid #0563bb; /* Match the border color with background */
+  border: 1px solid #0563bb; 
 }
 
 .menu-item:hover i {
@@ -200,9 +200,9 @@ body {
 #profile {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
+  align-items: center; 
   justify-content: flex-start;
-  padding: 30px 20px; /* Add padding to adjust space around the content */
+  padding: 30px 20px; 
 }
 
 .profile-container {
@@ -222,7 +222,7 @@ body {
 
 .about-header-container {
   width: 100%;
-  margin-bottom: 20px; /* Adjust as needed */
+  margin-bottom: 20px; 
   margin-left: 100px;
 }
 
@@ -233,23 +233,27 @@ body {
   color: #464242;
 }
 .custom-margin-top {
-  margin-top: 30px; /* Adjust the value as needed */
+  margin-top: 30px;
 }
 
 .pro-background {
   background-image: url('/Users/susonn7/Downloads/Suson_Sapkota/personal_website/src/img/pro.jpeg');
-  background-size: cover; /* Cover the container area */
-  background-position: center; /* Center the image */
-  width: 350px; /* Set a fixed width for the image */
-  height: 350px; /* Set a fixed height for the image */
+  background-size: cover; 
+  background-position: center; 
+  width: 350px; 
+  height: 350px; 
   margin-top:120px;
-  margin-right: 15px; /* Space between image and text */
+  margin-right: 35px;
+  border-radius: 360px;
+  margin-left: 45px;
+
+
 }
 
 .profile-row {
   display: flex;
-  align-items: center; /* Align items in the center vertically */
-  gap: 20px; /* Space between the image and the text */
+  align-items: center;
+  gap: 20px; 
 }
 
 .info-row {
@@ -259,71 +263,84 @@ body {
 }
 
 .info-content, .profile-links {
-  flex: 1; /* Allow both columns to take available space */
+  flex: 1; 
 }
-
+#profile {
+  background-color: white;
+}
 .info-item {
   display: block;
-  margin-bottom: 16px; /* Add margin below each item for spacing */
+  margin-bottom: 16px; 
 }
 
 .info-item b {
   display: inline-block;
   position: relative;
-  padding-left: 20px; /* Adjust padding for space for arrow */
+  padding-left: 20px; 
 }
 
 .info-item b::before {
-  content: '➤'; /* Arrow symbol */
+  content: '➤'; 
   position: absolute;
-  left: 0; /* Position the arrow to the left of the text */
-  color: #0d6dd3; /* Arrow color */
+  left: 0;
+  color: #0d6dd3; 
 }
 .about-header {
   font-size: 25px;
   color: #454444;
   position: relative;
   display: inline-block;
-  margin-bottom: 20px; /* Space between the header and the line */
-  text-align: center; /* Center the header text */
+  margin-bottom: 20px; 
+  text-align: center; 
 }
 
 .about-header::after {
   content: '';
   display: block;
-  width: 100%; /* Full width of the container */
-  height: 3px; /* Height of the lines */
-  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
-  margin-top: 8px; /* Adjust the spacing as needed */
+  width: 100%; 
+  height: 3px;
+  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); 
+  margin-top: 8px; 
+}
+.parent-element {
+  text-align: center; /* Ensure this is applied to the parent element */
+}
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.section-title {
-  margin-top: 30px;
-  margin-left: 98px;
-  font-size: 18px;
+.section-title h2 {
+  font-size: 25px;
   color: #454444;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 20px; /* Space between the header and the line */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set the desired font family */
 }
 
 .section-title::after {
   content: '';
   display: block;
-  width: 100%; /* Full width of the container */
-  height: 3px; /* Height of the lines */
-  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%); /* Gradient for the lines */
-  margin-top: 8px; /* Adjust the spacing as needed */
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, #c1bdbd 0%, #c1bdbd 33.33%, #0563bb 33.33%, #0563bb 66.66%, #c1bdbd 66.66%, #c1bdbd 100%);
+  margin-top: 8px;
 }
 
+
+
 .skills .skills-content {
+  margin-bottom: 35px;
   display: flex;
   justify-content: space-between;
-  margin-left: -500px; /* Adjust this value as needed */
+  margin-left: -500px; 
   
 }
 
 .skills .progress {
+  margin-left: 0px;
   height: 50px;
   display: block;
   background: none;
@@ -346,41 +363,153 @@ body {
 }
 
 .skills .progress-bar-wrap {
-  background: #dcdcdc; /* Changed to a distinct color */
-  width: 250%; /* Increase the width to make the bar longer */
+  background: #dcdcdc; 
+  width: 250%; 
   height: 10px;
-  border-radius: 5px; /* Add border radius for a smoother look */
-  overflow: hidden; /* Ensure the progress bar does not overflow */
+  border-radius: 5px; 
+  overflow: hidden; 
 }
 
 .skills .progress-bar {
   height: 10px;
-  width: 0%; /* Set initial width to 0% for animation */
+  width: 0%; 
   transition: width .9s;
   background-color: #0563bb;
 }
 
+.section-title{
+  font-size: 17px;
+  margin-left: 110px;
+}
 .skills-content .col-lg-6 {
-  margin: 0 25px; /* Adjust margins to ensure proper spacing between columns */
+  margin: 0 25px;
 }
 
 .skills-content .right-column {
-  margin-right: 400px; /* Move the right column more to the left */
+  margin-right: 340px; 
   width: 19%; 
 
 
 }
  .skills-content .left-column{
-  margin-left: 70px; /* Move the right column more to the left */
+  margin-left: 110px; 
   width: 17%; 
   }
   
   .info-item a {
     text-decoration: none;
-    color: #718ee4; /* Set the link color to light blue */
+    color: #718ee4; 
   }
   
   .info-item a:hover {
-    text-decoration: underline; /* Optionally, add an underline on hover */
+    text-decoration: underline; 
   }
-  
+  /* General styles for the resume */
+.resume {
+  font-family: Arial, sans-serif;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item.h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: -80px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+  z-index: 1;
+}
+
+.resume .resume-item::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: calc(100% + 20px);
+  background: #0563bb;
+  left: -2px;
+  top: 16px;
+  z-index: 0;
+}
+
+/* Hide the line for no-line class */
+.resume .resume-item.no-line::after {
+  display: none;
+}
+
+.resume .section {
+  text-align: center;
+}
+
+/* Add the following CSS for proper layout */
+@media (min-width: 992px) {
+  .resume .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .resume .summary-column {
+    margin-left: 15%; /* Adjust this value to move it more to the right */
+  }
+
+  .resume .col-lg-6 {
+    flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 991px) {
+  .resume .row {
+    display: block;
+  }
+
+  .resume .resume-item {
+    padding: 0 20px 20px 20px;
+  }
+}
