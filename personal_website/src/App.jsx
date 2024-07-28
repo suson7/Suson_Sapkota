@@ -274,14 +274,16 @@ function App() {
           <h5>6/3/24-7/26/25</h5>
           <p><em>CareMetx LLC, Bethesda, VA</em></p>
           <ul>
-            <li>Developed and implemented coding standards using Prettier, ESLint and other linting tools for the entire QA team.</li>
-            <li>Integrated ESLint and Prettier with CircleCI, automating linting and formatting checks on every commit by scripting the CI pipeline.
+            <li>Developed and implemented coding standards using Prettier, ESLint and other linting tools for the entire QA team. Integrated with CircleCI automating linting and formatting checks on every commit by scripting the CI pipeline.
 </li>
-            <li>Created setup documentation and meetings to ensure team-wide adoption of new coding standards.
+            <li>Acquired proficiency in end-to-end testing with Playwright, creating robust test scripts for various web browsers, and integrating with CircleCI pipelines.
+
 </li>
-<li>Regularly reviewed and updated coding standards and CI configurations to meet evolving project requirements and industry best practices.
+            <li> Developed skills in unit and integration testing with Jest, writing comprehensive test cases, and utilizing mocking and snapshot testing.
+
 </li>
-<li>Gained experience using Jira for task management and project tracking. Attended daily standups with 4 senior engineers and lots of other meetings within the engineering department.
+<li>Participated in daily standups with a team of four senior engineers and engaged in various meetings across the engineering department. Utilized Jira for efficient task management and project tracking within an Agile environment.
+
 </li>
           </ul>
         </div>
