@@ -147,7 +147,7 @@ function App() {
                 <p>
                   <span className="info-item"><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/suson-sapkota-021227239/">susonsapkota</a><br /></span>
                   <span className="info-item"><b>GitHub:</b> <a href="https://github.com/suson7">suson</a><br /></span>
-                  <span className="info-item"><b>Resume:</b> <a href="https://drive.google.com/file/d/1BsVA5S-WKtqEZF-Sd8Gb-F1hDeq7Oyl-/view">Download here!</a><br /></span>
+                  <span className="info-item"><b>Resume:</b> <a href="https://drive.google.com/file/d/1UkacASvzOH3NH5-KYzNML2KmdPeYs2DD/view">Download here!</a><br /></span>
                 </p>
               </div>
             </div>
@@ -198,7 +198,7 @@ function App() {
           </div>
         </div>
         <div className="progress">
-          <span className="skill">Jenkins <i className="val"></i></span>
+          <span className="skill">CircleCi <i className="val"></i></span>
           <div className="progress-bar-wrap">
             <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style={{ width: '55%' }}></div>
           </div>
@@ -218,13 +218,13 @@ function App() {
           </div>
         </div>
         <div className="progress">
-          <span className="skill">MySQL <i className="val"></i></span>
+          <span className="skill">Playwright <i className="val"></i></span>
           <div className="progress-bar-wrap">
             <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
           </div>
         </div>
         <div className="progress">
-          <span className="skill">Perforce <i className="val"></i></span>
+          <span className="skill">Jest <i className="val"></i></span>
           <div className="progress-bar-wrap">
             <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}></div>
           </div>
