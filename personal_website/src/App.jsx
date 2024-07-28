@@ -120,7 +120,7 @@ function App() {
             <a href="" className="mail-send"><i className="bx bx-mail-send"></i></a>
             <a href="" className="facebook"><i className="bx bxl-facebook"></i></a>
             <a href="https://www.instagram.com/susonn7/" className="instagram"><i className="bx bxl-instagram"></i></a>
-            <a href="https://drive.google.com/file/d/1BsVA5S-WKtqEZF-Sd8Gb-F1hDeq7Oyl-/view" className="cloud-download"><i className="bx bx-cloud-download"></i></a>
+            <a href="https://drive.google.com/file/d/1UkacASvzOH3NH5-KYzNML2KmdPeYs2DD/view" className="cloud-download"><i className="bx bx-cloud-download"></i></a>
           </div>
         </div>
       </div>
